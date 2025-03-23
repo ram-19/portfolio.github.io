@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Prabhath | Front-End Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2A2F4F;
+            --secondary-color: #917FB3;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #FDE2F3;
+        }
+        .navbar { background: var(--primary-color) !important; }
+        .hero {
+            padding: 100px 0;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: white;
+        }
+        .project-card {
+            transition: transform 0.3s;
+            border: none;
+            background: white;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        .skill-badge {
+            background: var(--secondary-color);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ram Prabhath</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Front-End Developer</h1>
+            <p class="lead">Building responsive, user-centric web applications with React.js & modern tools</p>
+            <a href="https://github.com/ram-19" class="btn btn-light btn-lg mt-3">View GitHub</a>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row">
+            <!-- Blog CMS -->
+            <div class="col-md-6 mb-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog CMS</h5>
+                        <p class="card-text">Built with React.js, HTML, CSS. Reduced content upload time by 30%.</p>
+                        <div class="mb-3">
+                            <span class="skill-badge">React.js</span>
+                            <span class="skill-badge">CSS</span>
+                        </div>
+                        <a href="https://github.com/ram-19/blog-cms" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Management Tool -->
+            <div class="col-md-6 mb-4">
+                <div class="card project-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Management Tool</h5>
+                        <p class="card-text">Real-time chat & task assignment features. Boosted team efficiency by 25%.</p>
+                        <div class="mb-3">
+                            <span class="skill-badge">React.js</span>
+                            <span class="skill-badge">Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/ram-19/project-management-tool" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Technical Skills</h2>
+            <div class="d-flex flex-wrap justify-content-center">
+                <span class="skill-badge">React.js</span>
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">Git/GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>📧 ramprabhathsirimalla6@gmail.com | 🔗 
+                <a href="https://linkedin.com/in/ram-prabhath-sirimella" class="text-white">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
